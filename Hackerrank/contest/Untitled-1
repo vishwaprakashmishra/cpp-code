@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(void){
+    int n , q;
+    cin>>q;
+    for( int i = 0  ;i < q ; i++ ){
+        cin>>n;
+        if( n%2 == 0 ) cout<<"Yes"<<endl;
+        else cout<<"No"<<endl;
+    }
+    return 0;
+}
